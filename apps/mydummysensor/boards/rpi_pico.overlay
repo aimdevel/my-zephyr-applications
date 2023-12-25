@@ -1,0 +1,13 @@
+/*
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/{
+	mydummysensor0: mydummysensor_0 {
+		compatible = "zephyr,mydummysensor";
+	};
+};
+
+&gpio0 {
+	status = "okay";
+};
